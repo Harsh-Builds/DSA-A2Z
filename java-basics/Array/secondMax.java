@@ -12,11 +12,12 @@ public class secondMax {
         }
 
         System.out.println(max);
+        // ignore the first max ele and loop through all ele o find the second one
         int maxx = arr[0];
         for (int j = 0; j < arr.length; j++) {
             if (maxx < arr[j] && arr[j] != max) {
                 maxx = arr[j];
-            }
+            }d
         }
 
         System.out.println(maxx);
